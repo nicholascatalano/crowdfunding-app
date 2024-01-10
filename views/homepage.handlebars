@@ -1,0 +1,10 @@
+<h1>Current Projects Seeking Funding</h1>
+<ul>
+  {{#each projects}}
+    <li>
+      <h2><a href="/project/{{this.id}}">{{this.name}}</a></h2>
+      <p>{{this.description}}</p>
+    </li>
+  {{/each}}
+</ul>
+
